@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hui-mysql-jdbc" />
-        <module name="huicore" />
         <module name="hui-empty-html" />
         <module name="hui-mysql-ssm" />
         <module name="hui-activiti" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="huicore" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

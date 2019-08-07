@@ -6,20 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hui-mysql-jdbc" />
-        <module name="hui-empty-html" />
         <module name="hui-mysql-ssm" />
+        <module name="hui-empty-html" />
+        <module name="hui-mysql-jdbc" />
+        <module name="hui-api-swagger" />
         <module name="hui-activiti" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hui-empty-jsp" target="1.8" />
       <module name="huicore" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hui-activiti" options="-parameters" />
+      <module name="hui-api-swagger" options="-parameters" />
       <module name="hui-empty-html" options="-parameters" />
+      <module name="hui-empty-jsp" options="-parameters" />
       <module name="hui-mysql-jdbc" options="-parameters" />
       <module name="hui-mysql-ssm" options="-parameters" />
       <module name="huicore" options="-parameters" />

@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/hui-core/pom.xml" />
+        <option value="$PROJECT_DIR$/hui-empty-jsp/pom.xml" />
       </set>
     </option>
   </component>

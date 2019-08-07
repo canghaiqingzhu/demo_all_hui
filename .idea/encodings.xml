@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hui-activiti" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hui-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hui-api-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hui-empty-html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hui-mysql-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hui-mysql-ssm" charset="UTF-8" />

@@ -6,3 +6,5 @@
 基于springboot的jdbc连接mysql
 #hui-mysql-ssm
 基于springboot的ssm框架搭建
+#hui-api-swagger
+springboot集成swagger

@@ -14,11 +14,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>hui-core</module>
         <module>hui-mysql-jdbc</module>
         <module>hui-empty-html</module>
         <module>hui-mysql-ssm</module>
         <module>hui-activiti</module>
+        <module>hui-api-swagger</module>
     </modules>
 
 

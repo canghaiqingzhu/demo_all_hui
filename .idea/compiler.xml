@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hui-mysql-jdbc" />
         <module name="hui-mysql-ssm" />
         <module name="hui-empty-html" />
-        <module name="hui-mysql-jdbc" />
-        <module name="hui-api-swagger" />
         <module name="hui-activiti" />
+        <module name="hui-api-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
